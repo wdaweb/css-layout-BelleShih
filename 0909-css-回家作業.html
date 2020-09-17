@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{            
+            font-family: '微軟正黑體';
+        }
+
+        body{
+            background-image: linear-gradient(180deg, #ffff 70%, rgb(102, 102, 102) 100%);
+        }
+
+        body,
+        html {
+            height: 100%;
+      }
+
+        .container{
+            width: 100%;
+            position: absolute;            
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 0;
+            -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0,0,0,0.3));              
+        }
+
+        .box{
+            width: 300px;
+            height: 500px;
+            position: relative;
+            box-shadow: 3px 3px 5px 0.4px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            font-size: 1rem;
+        }
+
+        div div {
+            animation: animation 1s 3;
+        }
+
+        .container div:nth-child(1) {            
+            animation-delay: 0.1s;
+        }
+
+        .container div:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .container div:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .container div:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes animation {
+
+            0% {
+                transform: translateX(0px);
+            }
+            50% {
+                transform: translateX(-50px);
+            }
+            51% {
+                transform: translateX(-50px);
+            }
+            100% {
+                transform: translateX(0px);
+            }
+            
+        }
+
+        img{
+            border-radius: 50%;
+            margin-top: 70px; 
+            transition: 
+            border 0.3s linear,
+            transform 0.3s linear ;            
+        }
+        img:hover{
+            border: 6px solid rgb(34, 172, 165);
+            transform: scale(2);            
+        }
+
+        p{
+            padding: 30px 25px; 
+            margin: 0;
+            text-align: left;
+            line-height: 1.6rem;
+        }
+
+        .bg01{
+            background-image: linear-gradient(90deg, #fff 0%, #ffff 50%, rgb(255, 255, 255) 90%, rgb(230, 230, 230) 100%);
+        }
+
+        .bg02{
+            background-image: linear-gradient(90deg, rgb(230, 230, 230) 0%, rgb(248, 248, 248) 10%, #ffff 50%, rgb(255, 255, 255) 90%, rgb(230, 230, 230) 100%);
+        }
+
+        .bg03{
+            background-image: linear-gradient(90deg, rgb(230, 230, 230) 0%, rgb(255, 255, 255) 10%, #ffff 50%, #fff 100%);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box bg01">
+            <img  src="https://picsum.photos/100/100/?random=1">
+            <p>
+                防止世界男女一場寶貝本網設立的人勝利快速男女引進受到那種，
+                速度武器的說維修革命草魚中有告訴危險三星他不改變，零售繼續
+                春天青年客人至於也不喜歡消費掌握鎖定豐富完整鐵路，姐姐十大
+                出來小說上一頁指出就有開。
+            </p>
+        </div>
+
+        <div class="box bg02">
+            <img  src="https://picsum.photos/100/100/?random=2">
+            <p>
+                內存性質大門喜愛，一份基礎上小子嚴格呵呵顧客另外過去先進性
+                節省會議無數起來，進入另一個幽默理解無限重點權力一顆宣傳連接
+                討論主題優化採訪，廣播加盟你在他還因素翻譯光碟計算機儘快長
+                時間一句話，會議一旦獲。
+            </p>
+        </div>
+
+        <div class="box bg02">
+            <img  src="https://picsum.photos/100/100/?random=3">
+            <p>
+                最後如今是由我只，制定拍攝現象眼淚，組成您是字元我們最好神秘
+                事務，不到差距因此當前位置，男女革命指揮描述應當範圍內案例
+                檢索，還有商標代理筆記本夥伴缺乏尚未自信如何但在，一道名稱帶
+                著下一頁增長，高興自。
+            </p>
+        </div>
+
+        <div class="box bg03">
+            <img  src="https://picsum.photos/100/100/?random=4">
+            <p>
+                判斷章節所需歷史發揮有什麼語言超市中壢動作學歷排名更好，容
+                量一下高級專輯前進穿著一笑死亡，寬頻理想一方面顯示水果美國
+                工具公里這就是焦點他在衝突，回答蔬菜團隊，核心歲月組成降價
+                ，仍然行政，到底參與好多。
+            </p>
+        </div>
+    </div>
+</body>
+</html>
